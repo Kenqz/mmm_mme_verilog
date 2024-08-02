@@ -1,0 +1,57 @@
+$date
+	Fri Jun  7 12:12:42 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mmm_tb $end
+$var wire 32 ! y [31:0] $end
+$var parameter 32 " N $end
+$var reg 32 # a [31:0] $end
+$var reg 32 $ b [31:0] $end
+$var reg 32 % n [31:0] $end
+$var reg 2 & test_no [1:0] $end
+$scope module u_dut $end
+$var wire 32 ' a [31:0] $end
+$var wire 32 ( b [31:0] $end
+$var wire 32 ) n [31:0] $end
+$var parameter 32 * N $end
+$var reg 32 + q [31:0] $end
+$var reg 32 , y [31:0] $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 *
+b100000 "
+$end
+#0
+$dumpvars
+b100000 -
+b10010011100000010111001101001001 ,
+b11111110111010101010111101010001 +
+b10010011100001001001110010100111 )
+b10001001101010111100110111101111 (
+b1001000110100010101100111 '
+b1 &
+b10010011100001001001110010100111 %
+b10001001101010111100110111101111 $
+b1001000110100010101100111 #
+b10010011100000010111001101001001 !
+$end
+#1
+b1100101010100011100001011001101 !
+b1100101010100011100001011001101 ,
+b10101111110010111111011110111101 +
+b100000 -
+b1000100010101010110011001110111 $
+b1000100010101010110011001110111 (
+b100010010001000110011 #
+b100010010001000110011 '
+b10 &
+#2
